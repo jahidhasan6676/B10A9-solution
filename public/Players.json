@@ -7,7 +7,7 @@
         "role": "Bowler",
         "battingType": "Left-hand bat",
         "bowlingType": "Left-arm medium",
-        "biddingPrice": 100000
+        "price": 100000
     },
     {
         "playerId": 2,
@@ -17,7 +17,7 @@
         "role": "Batsman",
         "battingType": "Left-hand bat",
         "bowlingType": "Left-arm offbreak",
-        "biddingPrice": 150000
+        "price": 150000
     },
     {
         "playerId": 3,
@@ -27,7 +27,7 @@
         "role": "All-rounder",
         "battingType": "Right-hand bat",
         "bowlingType": "Right-off-spin",
-        "biddingPrice": 140000
+        "price": 140000
     },
     {
         "playerId": 4,
@@ -37,7 +37,7 @@
         "role": "All-rounder",
         "battingType": "Right-hand bat",
         "bowlingType": "Right-leg-spin",
-        "biddingPrice":100000
+        "price":100000
     },
     {
         "playerId": 5,
@@ -47,7 +47,7 @@
         "role": "Batsman",
         "battingType": "Right-hand bat",
         "bowlingType": "Right-arm legbreak",
-        "biddingPrice": 2000000
+        "price": 2000000
     },
     {
         "playerId": 6,
@@ -57,6 +57,46 @@
         "role": "Batsman",
         "battingType": "Right-hand bat",
         "bowlingType": "Right-arm legbreak",
-        "biddingPrice": 160000
+        "price": 160000
+    },
+    {
+        "playerId": 7,
+        "name": "Tanzid Hasan",
+        "country": "Bangladesh",
+        "image": "https://i.ibb.co.com/crqmSQ1/tanzid.jpg",
+        "role": "Batsman",
+        "battingType": "Left-hand bat",
+        "bowlingType": "Left-arm legbreak",
+        "price": 100000
+    },
+    {
+        "playerId": 8,
+        "name": "Liton Das",
+        "country": "Bangladesh",
+        "image": "https://i.ibb.co.com/Nx6ZsZd/Liton-Das.jpg",
+        "role": "Batsman",
+        "battingType": "Right-hand bat",
+        "bowlingType": "Right-arm legbreak",
+        "price": 160000
+    },
+    {
+        "playerId": 9,
+        "name": "Virat Koli",
+        "country": "India",
+        "image": "https://i.ibb.co.com/Fqq3hDd/virat.jpg",
+        "role": "Batsman",
+        "battingType": "Right-hand bat",
+        "bowlingType": "Right-arm legbreak",
+        "price": 260000
+    },
+    {
+        "playerId": 10,
+        "name": "Rohid Sharma",
+        "country": "India",
+        "image": "https://i.ibb.co.com/nw6FLdt/rohit.jpg",
+        "role": "Batsman",
+        "battingType": "Right-hand bat",
+        "bowlingType": "Right-arm legbreak",
+        "price": 250000
     }
 ]
