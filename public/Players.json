@@ -1,0 +1,62 @@
+[
+    {
+        "playerId": 1,
+        "name": "Mustafizur Rahman",
+        "country": "Bangladesh",
+        "image": "https://i.ibb.co.com/9wwgSf5/mustafizur.jpg",
+        "role": "Bowler",
+        "battingType": "Left-hand bat",
+        "bowlingType": "Left-arm medium",
+        "biddingPrice": 100000
+    },
+    {
+        "playerId": 2,
+        "name": "Tamim Iqbal",
+        "country": "Bangladesh",
+        "image": "https://i.ibb.co.com/cDvD0H0/tamim.jpg",
+        "role": "Batsman",
+        "battingType": "Left-hand bat",
+        "bowlingType": "Left-arm offbreak",
+        "biddingPrice": 150000
+    },
+    {
+        "playerId": 3,
+        "name": "Mahmudullah",
+        "country": "Bangladesh",
+        "image": "https://i.ibb.co.com/Qpv76Pw/mahmudullah.jpg",
+        "role": "All-rounder",
+        "battingType": "Right-hand bat",
+        "bowlingType": "Right-off-spin",
+        "biddingPrice": 140000
+    },
+    {
+        "playerId": 4,
+        "name": "Rishad Hossain",
+        "country": "Bangladesh",
+        "image": "https://i.ibb.co.com/9w20dj0/rishad.jpg",
+        "role": "All-rounder",
+        "battingType": "Right-hand bat",
+        "bowlingType": "Right-leg-spin",
+        "biddingPrice":100000
+    },
+    {
+        "playerId": 5,
+        "name": "ABD Villiers",
+        "country": "South Africa",
+        "image": "https://i.ibb.co.com/d5pWKGc/abd.webp",
+        "role": "Batsman",
+        "battingType": "Right-hand bat",
+        "bowlingType": "Right-arm legbreak",
+        "biddingPrice": 2000000
+    },
+    {
+        "playerId": 6,
+        "name": "Mushfiqur Rahman",
+        "country": "Bangladesh",
+        "image": "https://i.ibb.co.com/Xy7FmfY/mushfiq.jpg",
+        "role": "Batsman",
+        "battingType": "Right-hand bat",
+        "bowlingType": "Right-arm legbreak",
+        "biddingPrice": 160000
+    }
+]

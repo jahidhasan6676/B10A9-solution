@@ -2,7 +2,7 @@ import profile from '../../assets/logo.png';
 
 const Navbar = () => {
     return (
-        <div className='flex justify-between items-center py-4 w-11/12 lg:w-10/12 mx-auto'>
+        <div className='flex justify-between items-center py-4 '>
             {/* logo */}
             <div>
                 <img className='w-16 h-16' src={profile}  />
