@@ -1,6 +1,6 @@
 import profile from '../../assets/logo.png';
-
-const Navbar = () => {
+import PropTypes from 'prop-types'
+const Navbar = ({coins}) => {
     return (
         <div className='flex justify-between items-center py-4 '>
             {/* logo */}
@@ -14,12 +14,16 @@ const Navbar = () => {
                     <li>Fixture</li>
                     <li>Teams</li>
                     <li>Schedule</li>
-                    <p className='flex items-center gap-1 border-2 p-2 rounded-lg font-medium'><span>0 </span>  coin <img className='w-6 h-6' src="https://img.icons8.com/?size=48&id=sPBQkuep9vDA&format=png"/></p>
+                    <button className='flex items-center gap-1 border-2 p-2 rounded-lg font-medium'><span> {coins} </span>  coin <img className='w-6 h-6' src="https://img.icons8.com/?size=48&id=sPBQkuep9vDA&format=png"/></button>
                 </ul>
 
             </div>
         </div>
     );
 };
+
+Navbar.propTypes ={
+    coins:PropTypes.number
+}
 
 export default Navbar;

@@ -1,8 +1,16 @@
-# React + Vite
+# Cricket Player Draft Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, reusable component for displaying cricket player cards with information on each player. Users can select players by viewing their profile details, including name, role, country, and price.
 
-Currently, two official plugins are available:
+### Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: For building the component structure.
+- **PropTypes**: For validating prop types.
+- **Tailwind CSS**: For styling and responsiveness.
+
+### Key Features
+
+1. **Detailed Player Information**:  Displays key information like image, name, role, country, batting and bowling types, and price.
+2. **Interactive Selection**: A "Choose Player" button that lets users select their preferred players.
+3. **Dynamic Pricing**: Clicking the Choose player button will subtract the player's price from the coins. If the player releases it again, the price will be added to the coin.
+

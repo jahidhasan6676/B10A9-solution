@@ -1,8 +1,8 @@
 import PropTypes from "prop-types"
 
-const SinglePlayerCard = ({player}) => {
+const SinglePlayerCard = ({player,handleChoosePlayer}) => {
     const {image,name,country,role,battingType,bowlingType,price} = player;
-    console.log(player)
+    // console.log(player)
     return (
         <div className="border rounded-md p-3">
             {/* img div */}
@@ -19,7 +19,7 @@ const SinglePlayerCard = ({player}) => {
                 <p className="text-sm font-normal text-gray-500">{country}</p>
                 </div>
                 <div>
-                    <button className="bg-gray-300 px-2 py-1 rounded-md text-sm font-medium">{role}</button>
+                    <p className="bg-gray-300 px-2 py-1 rounded-md text-sm font-medium">{role}</p>
                 </div>
             </div>
             <hr />   
@@ -32,14 +32,15 @@ const SinglePlayerCard = ({player}) => {
                  {/* price and choose btn */}
                  <div className="flex justify-between items-center mt-2">
                     <p className="text-sm font-medium">Price: ${price}</p>
-                    <button className="text-sm font-normal border px-2 py-1 rounded-md text-gray-500">Choose Player</button>
+                    <button onClick={()=>handleChoosePlayer(player)} className="text-sm font-normal border px-2 py-1 rounded-md text-gray-500 hover:bg-[#E7FE29] hover:text-black">Choose Player</button>
                  </div>
         </div>
     );
 };
 
 SinglePlayerCard.propTypes ={
-    player:PropTypes.object.isRequired
+    player:PropTypes.object.isRequired,
+    handleChoosePlayer:PropTypes.func
 }
 
 export default SinglePlayerCard;
