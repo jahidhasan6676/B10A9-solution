@@ -2,7 +2,7 @@ import profile from '../../assets/logo.png';
 import PropTypes from 'prop-types'
 const Navbar = ({coins}) => {
     return (
-        <div className='flex justify-between items-center py-4 '>
+        <div className='flex  justify-between items-center py-4 sticky  top-0   bg-[#FBFBFB]'>
             {/* logo */}
             <div>
                 <img className='w-16 h-16' src={profile}  />

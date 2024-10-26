@@ -49,14 +49,14 @@ function App() {
      <div className='w-11/12 lg:w-10/12 mx-auto'>
       <Navbar coins={coins}></Navbar>
       <Banner handleClamCoin={handleClamCoin}></Banner>
-     </div>
-     <div className='w-11/12 lg:w-10/12 mx-auto mt-10'>
+     
+     
       <AvailableContainer isActive={isActive} handleIsActive={handleIsActive} handleDecrementCoin={handleDecrementCoin} handleIncrementCoin={handleIncrementCoin}></AvailableContainer>
       </div>
      <div className='mt-[200px]'>
      <Footer></Footer>
      </div>
-      
+    
       
     </>
   )

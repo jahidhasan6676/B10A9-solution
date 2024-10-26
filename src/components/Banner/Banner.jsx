@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 const Banner = ({handleClamCoin}) => {
     return (
-        <div className="mt-3" 
+        <div className="mt-5 mb-10" 
             style={{
                 backgroundImage: `url('https://i.ibb.co/zPkYPXv/bg-shadow.png')`,
                 backgroundSize: 'cover', 

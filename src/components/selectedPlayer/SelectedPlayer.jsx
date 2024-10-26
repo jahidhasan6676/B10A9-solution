@@ -4,7 +4,7 @@ const SelectedPlayer = ({choosePlayer,handleRemoveCard,handleIsActive}) => {
     console.log(choosePlayer)
     return (
         <div>
-            <h2 className='font-semibold mt-[-40px] mb-10'>Selected Player: (<span>{choosePlayer.length}</span>/6)</h2>
+           <h2 className='font-semibold mt-[-40px] mb-10'>Selected Player: (<span>{choosePlayer.length}</span>/6)</h2>
             <div className='space-y-2'>
                 {
                     choosePlayer.map((p,index)=> {
@@ -15,6 +15,7 @@ const SelectedPlayer = ({choosePlayer,handleRemoveCard,handleIsActive}) => {
                                 <div className=''>
                                     <h5 className='font-medium'>{p.name}</h5>
                                     <p className='text-sm font-medium text-gray-500'>{p.battingType}</p>
+                                    <p className='text-sm font-medium text-gray-500'>Price: ${p.price}</p>
                                 </div>
                             </div>
 

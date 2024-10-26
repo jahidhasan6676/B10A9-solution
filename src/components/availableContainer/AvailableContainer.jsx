@@ -11,8 +11,12 @@ const AvailableContainer = ({handleIsActive,isActive,handleDecrementCoin,handleI
         const isExist = choosePlayer.find(p => p.playerId === player.playerId );
         if(!isExist){
             handleDecrementCoin(player);
+           if(choosePlayer.length < 6){
             const newChoosePlayer = [...choosePlayer,player]
             setChoosePlayer(newChoosePlayer)
+           }else{
+            alert('you can select maximum 6 players')
+           }
         }else{
             alert('This player already exist')
         }
